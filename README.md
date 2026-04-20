@@ -1,0 +1,2 @@
+# Enhancing-Attendance-Management-through-Real-Time-Face-Detection
+ The Attendance Management System project represents a pioneering endeavor aiming to revolutionize traditional attendance tracking methodologies. In this study, we delve into the contemporary challenges associated with conventional attendance management systems and propose an innovative solution to redefine attendance tracking paradigms.
