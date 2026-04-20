@@ -1,5 +1,5 @@
 
-# Enhancing-Attendance-Management-through-Real-Time-Face-Detection.
+# Enhancing-Attendance-through-Real-Time-Face-Detection.
 
 The project, "Enhancing Attendance Management through Real-Time Face Detection using Machine Learning," presents a transformative solution to the inefficiencies of manual attendance tracking. Leveraging facial recognition technology, the project addresses the shortcomings of traditional methods by automating processes, enhancing accuracy, and providing a more secure and user-friendly system. The chosen technology stack, including hardware components and software requirements, aligns with the project's goals, emphasizing efficiency and real-time capabilities.
 
