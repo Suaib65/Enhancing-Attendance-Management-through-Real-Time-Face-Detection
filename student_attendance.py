@@ -12,10 +12,10 @@ import tkinter.font as font
 import pyttsx3
 
 # project module
-import show_attendance
-import takeImage
-import trainImage
-import automaticAttedance
+import student_show
+import Image_click
+import image_train
+import auto_Attendance
 
 # engine = pyttsx3.init()
 # engine.say("Welcome!")
@@ -29,15 +29,15 @@ def text_to_speech(user_text):
     engine.runAndWait()
 
 
-haarcasecade_path = "C:\\Users\hamme\OneDrive\Desktop\AMS\\haarcascade_frontalface_default.xml"
+haarcasecade_path = "add path here"
 trainimagelabel_path = (
-    "C:\\Users\hamme\OneDrive\Desktop\AMS\\TrainingImageLabel\\Trainner.yml"
+    "add path here"
 )
-trainimage_path = "C:\\Users\hamme\OneDrive\Desktop\AMS\\TrainingImage"
+trainimage_path = "add path here"
 studentdetail_path = (
-    "C:\\Users\hamme\OneDrive\Desktop\AMS\\StudentDetails\\studentdetails.csv"
+    "add path here"
 )
-attendance_path = "C:\\Users\hamme\OneDrive\Desktop\AMS\\Attendance"
+attendance_path = "add path here"
 
 
 window = Tk()
@@ -89,7 +89,7 @@ def testVal(inStr, acttyp):
     return True
 
 
-logo = Image.open("UI_Image/0001.png")
+logo = Image.open("add path here")
 logo = logo.resize((50, 47), Image.ANTIALIAS)
 logo1 = ImageTk.PhotoImage(logo)
 titl = tk.Label(window, bg="black", relief=RIDGE, bd=10, font=("arial", 35))
@@ -112,19 +112,19 @@ a = tk.Label(
 )
 a.pack()
 
-ri = Image.open("UI_Image/register.png")
+ri = Image.open("add path here")
 r = ImageTk.PhotoImage(ri)
 label1 = Label(window, image=r)
 label1.image = r
 label1.place(x=100, y=270)
 
-ai = Image.open("UI_Image/attendance.png")
+ai = Image.open("add path here")
 a = ImageTk.PhotoImage(ai)
 label2 = Label(window, image=a)
 label2.image = a
 label2.place(x=980, y=270)
 
-vi = Image.open("UI_Image/verifyy.png")
+vi = Image.open("add path here")
 v = ImageTk.PhotoImage(vi)
 label3 = Label(window, image=v)
 label3.image = v

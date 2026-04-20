@@ -2,7 +2,7 @@ import requests
 import cv2
 import numpy as np
 
-url = "http://192.168.0.6:8080/shot.jpg"
+url = "add your url"
 
 while True:
     cam = requests.get(url)

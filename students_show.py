@@ -13,10 +13,10 @@ def subjectchoose(text_to_speech):
             t='Please enter the subject name.'
             text_to_speech(t)
         os.chdir(
-            f"C:\\Users\\patel\\OneDrive\\Documents\\E\\FBAS\\Attendance\\{Subject}"
+            f"add path here"
         )
         filenames = glob(
-            f"C:\\Users\\patel\\OneDrive\\Documents\\E\\FBAS\\Attendance\\{Subject}\\{Subject}*.csv"
+            f"add path here*.csv"
         )
         df = [pd.read_csv(f) for f in filenames]
         newdf = df[0]
@@ -32,7 +32,7 @@ def subjectchoose(text_to_speech):
         root = tkinter.Tk()
         root.title("Attendance of "+Subject)
         root.configure(background="black")
-        cs = f"C:\\Users\\patel\\OneDrive\\Documents\\E\\FBAS\\Attendance\\{Subject}\\attendance.csv"
+        cs = f"add path here"
         with open(cs) as file:
             reader = csv.reader(file)
             r = 0
@@ -63,7 +63,7 @@ def subjectchoose(text_to_speech):
     subject.geometry("580x320")
     subject.resizable(0, 0)
     subject.configure(background="black")
-    # subject_logo = Image.open("UI_Image/0004.png")
+    # subject_logo = Image.open("User Interface_Images/0004.png")
     # subject_logo = subject_logo.resize((50, 47), Image.ANTIALIAS)
     # subject_logo1 = ImageTk.PhotoImage(subject_logo)
     titl = tk.Label(subject, bg="black", relief=RIDGE, bd=10, font=("arial", 30))
@@ -86,7 +86,7 @@ def subjectchoose(text_to_speech):
             text_to_speech(t)
         else:
             os.startfile(
-            f"C:\\Users\\patel\\OneDrive\\Documents\\E\\FBAS\\Attendance\\{sub}"
+            f"add path here"
             )
 
 
