@@ -13,7 +13,7 @@ In summary, the "Enhancing Attendance Management through RealTime Face Detection
 - Get the Code: Download or clone the repository to your local machine.
 - Install Dependencies: Open your command prompt and run pip install -r requirements.txt.
 - Create Folder: Make a new folder named Images inside the main project directory.
-- Update Paths: Open both attendance.py and automaticAttendance.py, and change the file paths to match your system's setup.
+- Update Paths: Add your image paths inside the python codes. Open both attendance.py and automaticAttendance.py, and change the file paths to match your system's setup.
 - Launch: Run the attendance.py script to start the program.
 
 ### Here is a streamlined version of the project flow:
